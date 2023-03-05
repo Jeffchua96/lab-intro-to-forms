@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Payment Form</h1>
-    <p>Required fields are marked by *</p>
+    <p>Required field are marked by *</p>
     <form>
         <fieldset>
             <legend>Contact Information</legend>
@@ -27,43 +27,29 @@
             <label>
                 Mrs. <br>
                 <input type ="radio" name="prefix" id="prefix-mrs"
-            </label>
-            <label> <br>
+            </label> <br>
+            <label>
                 Name <br>
-                 <input type="text" id="name" name="name" placeholder="name" required>
+                <input type="text"
             </label> <br>
             <label>
                 Email <br>
-                <input type="email" id="email" name="email" placeholder="email" required>
+                <input type="text"
             </label> <br>
-
-    </fieldset>
-    <fieldset>
-        <legend>Payment Information</legend> 
-        <label>
-                <select type="text" name="credit-card" id="credit-card">
-                    <option value="visa">Visa</option>
-                    <option value="mastercard">Mastercard</option>
-                    <option value="american-express">American Express</option>
-                    <option value="discover">Discover</option>
+            <fieldset>
+               <legend>Payment Information</legend> 
+                <select name="credit-card" id="credit-card">
+                    <option value="Visa">Visa"</option>
+                    <option value="MasterCard">MasterCard"</option>
+                    <option value="Discover">Discover"</option>
+                    <option value="American-Express">American-Express"</option>
                 </select>
-                Credit Card Number
-                 <br>
-        </label>
-        <label>
+                <label>Credit Card Number</label> <br>
                    <input type="tel" placeholder="xxxx xxxx xxxx xxxx" required>
-                <br>
-        </label>
-                <label>
-                    Expiration date
-                <br>
-                <input type="text" id="expiration-date" name="expiration-date" required>
-                <br>
-                </label>
-    </fieldset>
-                
-                </select> 
-                <input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+                <label> <br>
+                <label>Expiration Date<label>
+                <label> <br>
+                <input type="text" id="Expiration-date" name="Expiration-date" required>
                     </label>
                     </fieldset>
             
